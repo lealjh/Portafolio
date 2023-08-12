@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Slabo 27px', serif;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url("../Img/imagenFondo.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+
+.fondo1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color:#212121a0 ;
+}
+nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;  
+    padding-top: 15px; 
+    background: rgba(33, 33, 33, 0.74);
+}
+
+nav ul{
+    list-style: none;    
+}
+
+nav a{
+    text-decoration:none; 
+    color: #fff;
+    margin: 15px;
+    
+}
+
+.nav-item{
+    color: #fff;
+}
+
+.img-person{
+    position: absolute;
+    bottom: 40px;
+    
+}
+
+.info{
+    position: absolute;
+    display: block;
+    right: 350px;
+    color:#fff;
+    bottom: 30%;
+    font-size: 60px;
+}
+.info h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.info p{
+    color:#12ecda; 
+    text-align: center;
+}
+
+.icons{
+position: absolute;
+bottom: 10%;
+right: 5%;
+background:rgba(239, 237, 232, 0.58);
+border-radius: 10px;
+}
+.icons ul{
+    list-style: none;
+}
+
+/* main */
+main{
+    background: rgba(0, 0, 0, 1);
+}
+
+main .cont h2{
+    color:rgba(147, 69, 52, 1);
+
+}
+main .cont p{
+    color:#fff; 
+}
