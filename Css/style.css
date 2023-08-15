@@ -91,16 +91,117 @@ main{
     width: 100%;
 }
 
-main .cont h2{
-    color:rgba(147, 69, 52, 1);
-
+main .cont .number-cont{
+    color:#12ecda;
 }
+
+
 main .cont p{
     color:#fff; 
 }
 
 main .experiencia{
-    padding-left: 25% ;
-    background:rgba(239, 237, 232, 0.58);
-    background-size: cover;
+    margin-left: 60%;
+    margin-top: 5%;
+    /* background:rgba(239, 237, 232, 0.58); */
+    /* width: 160px;
+    height: 80px;
+    border-radius: 20px;
+    text-align: center; */
 }
+
+
+main .proyec-compl {
+   
+    /* background:rgba(239, 237, 232, 0.58); */
+    margin: 5% auto;
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3PX SOLID #12ecda ;
+    transition: 1s;
+
+
+}
+main .clien{
+    margin-top: 1%;
+    float: right;
+    /* background:rgba(239, 237, 232, 0.58); */
+    width: 160px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3PX SOLID #12ecda ;
+    transition: 1s;
+
+
+}
+
+main .experiencia2{
+    margin-top: 1%;
+    float: left;
+    /* background:rgba(239, 237, 232, 0.58);  */
+    width: 160px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3PX SOLID #12ecda ;
+    transition: 1s;
+
+   
+}
+
+main .descripciones{
+    margin-top: 5%;
+}
+main .titulo-cont{
+    color: #12ecda;
+}
+main .designer{
+    /* background:rgba(239, 237, 232, 0.58); */
+    text-align: center;
+    margin-left: 50%;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 3PX SOLID #12ecda ;
+    transition: 1s;
+
+}
+
+main .frontend{
+    /* background:rgba(239, 237, 232, 0.58); */
+    text-align: center;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3PX SOLID #12ecda ;
+    transition: 1s;
+
+
+}
+
+main .backend{
+    /* background:rgba(239, 237, 232, 0.58); */
+    text-align: center;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 3PX SOLID #12ecda ;
+    transition: 1s;
+}
+
+.cont-portf:hover{
+background-color:#12ecda;
+border-radius: 0;
+
+}
+
+.style-backend :hover h2{
+color: rgba(0, 0, 0, 1);
+}
+.style-backend :hover p{
+    color: rgba(0, 0, 0, 1);
+    }
