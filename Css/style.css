@@ -71,19 +71,24 @@ nav a{
 }
 
 .icons{
-position: absolute;
-bottom: 10%;
-right: 5%;
+width: 90px;
 background:rgba(239, 237, 232, 0.58);
-border-radius: 10px;
+
 }
-.icons ul{
-    list-style: none;
+
+.icons a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color:#1E3050;
+    text-decoration: none;
 }
 
 /* main */
 main{
     background: rgba(0, 0, 0, 1);
+    width: 100%;
 }
 
 main .cont h2{
@@ -92,4 +97,10 @@ main .cont h2{
 }
 main .cont p{
     color:#fff; 
+}
+
+main .experiencia{
+    padding-left: 25% ;
+    background:rgba(239, 237, 232, 0.58);
+    background-size: cover;
 }
