@@ -18,7 +18,7 @@ html{
 }
 
 .open-panel{
-    background: #12ecdad3;
+    background: #12ecda;
     color: #fff;
     padding: 10px 25px;
     transform: rotate(-90deg);
@@ -130,7 +130,7 @@ header .info h2{
 }
 
 header .info p{
-    color:#12ecda; 
+    color:#6e5494; 
     text-align: center;
 }
 
@@ -153,7 +153,7 @@ header .icon-bar a{
     color: #fff;
 }
 header .icon-bar a:hover{
-    background-color: #12ecda;
+    background-color: #6e5494;
     transform: translateY(-10px);
 }
 
@@ -187,7 +187,7 @@ main{
 }
 
 main .cont .number-cont{
-    color:#12ecda;
+    color:#6e5494;
 }
 
 
@@ -214,7 +214,7 @@ main .proyec-compl {
     height: 90px;
     text-align: center;
     border-radius: 20px;
-    border: 3PX SOLID #12ecda ;
+    border: 3PX SOLID #6e5494 ;
     transition: 1s;
     padding:2px;
 }
@@ -232,7 +232,7 @@ main .clien{
     width: 160px;
     text-align: center;
     border-radius: 20px;
-    border: 3PX SOLID #12ecda ;
+    border: 3PX SOLID #6e5494 ;
     transition: 1s;
     padding: 2px;
 }
@@ -248,7 +248,7 @@ main .experiencia2{
     width: 160px;
     text-align: center;
     border-radius: 20px;
-    border: 3PX SOLID #12ecda ;
+    border: 3PX SOLID #6e5494 ;
     transition: 1s;
     padding: 2px;
 }
@@ -262,7 +262,7 @@ main .descripciones{
     margin-top: 5%;
 }
 main .titulo-cont{
-    color: #12ecda;
+    color: #6e5494;
 }
 main .designer{
     /* background:rgba(239, 237, 232, 0.58); */
@@ -272,7 +272,7 @@ main .designer{
     height: 230px;
     border-radius: 20px;
     padding: 15px;
-    border: 3PX SOLID #12ecda ;
+    border: 3PX SOLID #6e5494 ;
     transition: 1s;
 
 }
@@ -284,7 +284,7 @@ main .frontend{
     height: 230px;
     border-radius: 20px;
     padding: 10px;
-    border: 3PX SOLID #12ecda ;
+    border: 3PX SOLID #6e5494 ;
     transition: 1s;
 
 
@@ -297,12 +297,12 @@ main .backend{
     height: 230px;
     border-radius: 20px;
     padding: 15px;
-    border: 3PX SOLID #12ecda ;
+    border: 3PX SOLID #6e5494 ;
     transition: 1s;
 }
 
 .cont-portf:hover{
-background:#12ecda8c;
+background:#6e54948c;
 border-radius: 0;
 
 }
@@ -336,7 +336,7 @@ main .progres2{
 }
 
 main .style-progres {
-    color: #12ecda;
+    color: #6e5494;
     text-align: center;
 }
 
@@ -361,7 +361,7 @@ main .style-progres .porciento{
 
 /* SOBRE MI */
 #sobre-mi h2{
-    color: #12ecda;
+    color: #6e5494;
     margin: 50px 0;
 }
 
@@ -413,6 +413,6 @@ footer .icon-bar2 a{
 }
 
 footer .icon-bar2 a:hover{
-    background-color: #12ecda;
+    background-color: #6e5494;
     border-radius: 8px;
 }

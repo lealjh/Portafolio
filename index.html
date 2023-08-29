@@ -4,14 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a6c0b2cb0d.js" crossorigin="anonymous"></script>
-     
+    <link rel="stylesheet" id="fileCss" href="Css/style.css">
     <title>Portafolio</title>
 </head>
 
 <body>
+    <div class="theme-color">
+        <button class="open-panel" onclick="activarPanel()" >Theme</button>
+        <div class="cont-colores">
+            <button onclick="themeOne()">1</button>
+            <button onclick="themeSecundary()">2</button>
+            <button onclick="themeThree()">3</button>
+
+        </div>
+    </div>
+
+
+
+
+
     <header >
             <div class="fondo1">
                 <nav>
@@ -43,14 +56,14 @@
                         <div class="col-md-5">
                             <img class="img-person " src="Img/Unknown_person 1.svg  " alt="Unknown_person">
                         </div>
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <div class="info">
                                     <h2>Daniel Alexander</h2>
                                     <h2>Pérez Leal</h2>
                                     <p>Desarrollador Web</p>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-1">
                                 <div class="icon-bar">
                                     <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
                                     <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>
@@ -240,7 +253,7 @@
                         </div>
                     </div>
                         <div class="col-md-5">
-                            <img class="img-person2 " src="../Portafolio-main/Img/Unknown_person 1.svg" alt="">
+                            <img class="img-person2 " src="Img/Unknown_person 1.svg" alt="">
                         </div>
                 </article>
         </div>
@@ -276,7 +289,7 @@
 
 
 </MAIN>
-
+<script src="Js/main.js"></script>
 </body>
 
 </html>
