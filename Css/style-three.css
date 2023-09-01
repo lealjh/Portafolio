@@ -327,17 +327,11 @@ main .titulo-habi{
     margin-bottom: 40px;
 }
 
-main .progres1{
-    margin-left: 10%;
-}
 
-main .progres2{
-    margin-right: 10%;
-}
-
-main .style-progres {
+main .style-progres p{
     color: #8F3E32;
-    text-align: center;
+    /* text-align: center; */
+    margin: 20px 0;
 }
 
 main .style-progres h2{
