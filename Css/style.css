@@ -9,6 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Cambio de theme */
 .theme-color{
     position: fixed;
     right: 0;
@@ -66,6 +67,7 @@ html{
     background: #8F3E32;
 }
 
+/* NAV */
 
 header{
     width: 100%;
@@ -98,11 +100,23 @@ header nav{
     background: rgba(33, 33, 33, 0.74);
 }
 
+@media screen and (max-width:600px) {
+    
+    header nav{
+        display: block;
+        z-index: 99;
+        background :rgba(33, 33, 33, 0.822) ;
+    }
+
+
+}
+
+
  header nav ul{
     list-style: none;    
 }
 
-header nav a{
+header nav .nav-item a{
     text-decoration:none; 
     color: #fff;
     margin: 20px; 
@@ -112,9 +126,21 @@ header .nav-item{
     color: #fff;
 }
 
+
+/* Hero */
  header .img-person{
     position: relative;
-    top: 40%;
+    top: 100px;
+    width: 450px;
+}
+
+@media screen and (max-width:600px) {
+    header .img-person{
+        top: 140px;
+        left: 50px;
+        width: 300px;
+ }
+
 }
 
 header .info{
@@ -123,6 +149,16 @@ header .info{
     font-size: 60px;
     top: 60%;
 }
+
+@media screen and (max-width:600px) {
+    
+    header .info{
+        font-size: 40px;
+        top: 200px;
+    }
+
+}
+
 
 header .info h2{
     text-align: center;
@@ -135,7 +171,7 @@ header .info p{
 }
 
 header .icon-bar{
-    top: 80%;
+    top: 250px;
     left: 95%;
     position: relative;
     /* background:rgba(239, 237, 232, 0.58); */
@@ -152,6 +188,18 @@ header .icon-bar a{
     font-size: 25px;
     color: #fff;
 }
+
+@media screen and (max-width:600px) {
+    header .icon-bar {
+        top: 200px;
+        left: 150px;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+}
+
 header .icon-bar a:hover{
     background-color: #12ecda;
     transform: translateY(-10px);
@@ -237,6 +285,14 @@ main .clien{
     padding: 2px;
 }
 
+@media screen and (max-width:600px) {
+    
+    main .cont-primary{
+        width: 100%;
+    }
+
+}
+
 main .clien:hover{
     transform: scale(1.2);
 }
@@ -258,6 +314,7 @@ main .experiencia2:hover{
 
 }
 
+
 main .descripciones{
     margin-top: 5%;
 }
@@ -275,6 +332,13 @@ main .designer{
     border: 3PX SOLID #12ecda ;
     transition: 1s;
 
+}
+
+@media  screen and (max-width:600px) {
+    main .designer{
+
+        margin-left: 0;
+    }
 }
 
 main .frontend{
@@ -322,25 +386,31 @@ color: rgba(0, 0, 0, 1);
 }
 
 main .titulo-habi{
-    color:  #fff;
+    color: #12ecda;
     text-align: center;
     margin-bottom: 40px;
 }
 
-main .progress{
-    background: ;
-}
 
 
 main .style-progres p{
-    color: #12ecda;
+    color: #c4c3b9;
     /* text-align: center; */
-    margin: 20px 0;
-}
-
-main .style-progres h2{
     margin: 40px 0;
 }
+
+main .style-progres .tipo-habi{
+    display:flex;
+    justify-content: space-between;
+    color: #12ecda;
+}
+
+main .style-progres .tipo-habi spam{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+}
+
 
 main .progres-cont{
 display: flex;
@@ -382,10 +452,15 @@ main .style-progres .porciento{
 #sobre-mi .img-person2{
     position: relative;
     left: 20%;
-    top: 25%;
+    top: 15%;
     width: 50%;
 }
 
+@media screen and (max-width: 600px) {
+    #sobre-mi .img-person2{
+        top: 0;
+    }
+}
 
 /* footer */
 
